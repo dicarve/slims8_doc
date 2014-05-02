@@ -1,0 +1,1540 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Opac (Online Public Access Catalog)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+The library is not only a diary of the human race, but marks an act of faith
+ in the continuity of humanity.
+ --Vartan Gregorian 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+OPAC ( Online Public Access Catalog ), merupakan sarana penelusuran yang
+ diperuntukkan bagi yang membutuhkan informasi dari perpustakaan.
+ OPAC dalam Senayan ini terdiri dari Simple Search (pencarian sederhana),
+ Advanced Search (pencarian canggih), navigasi Library Information (informasi
+ tentang perpustakaan), navigasi Help on Search dan Librarian Login.
+ Pada Simple Search, pencarian dapat dilakukan dengan mengetikkan kata kunci
+ (judul, pengarang, subyek...) pada kolom yang tersedia.
+ Sedangkan pada Advanced Search terdapat tiga kolom pencarian yaitu: khusus
+ Title, khusus Author, ISBN/ISSN dan khusus Subject.
+ Untuk memperoleh ketepatan pencarian disediakan pula pilihan Location,
+ Collection Type dan GMD.
+ Informasi pada Library Information dapat disesuaikan dengan perpustakaan/instit
+usi terkait dengan mengedit file libnfo.inc.php yang terletak pada folder
+ lib.
+ Sementara untuk mengubah Help on Search, dilakukan dengan mengedit file
+ help.inc.php yang terletak pada folder lib.
+ Tampilan awal hasil pencarian bibliografi di dalam OPAC memuat gambar/image,
+ judul, Pengarang.
+ Selain itu ditambah dengan tombol Detail (untuk melihat detail data bibliografi
+) dan XML (untuk mendapatkan format XML).
+ Tampilan Detail, memuat informasi Title (judul), Edition, Call Number,
+ ISSN/ISBN, Author (pengarang), Topics, Classification, Series, Title, GMD,
+ Language (bahasa), Publisher (penerbit), Publish Year (tahun terbit), Publish
+ Place (tempat terbit), Collation, Abstrac/Notes, Location, Image (gambar)
+ dan File Attachment yang dapat diunduh, Availability (ketersediaan: berisi
+ informasi total item, item tersedia dan item terpinjam), Topics dan Author
+ memiliki fasilitas keterkaitan antar dokumen.
+ Jadi ketika kita klik Topics atau author dalam Detail OPAC maka akan muncul
+ dokumen dengan topik atau pengarang yang sama.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Dalam OPAC ini pula, di berikan fasilitas untuk mengubah bahasa pengantar.
+ OPAC SLiMS telah mempunyai berbagai bahasa pengantar; yaitu Arab, Indonesia,
+ Inggris, Jerman dan Spanyol, Persia dan lainnya.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-lang.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+pilihan bahasa di OPAC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/template_default.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Opac
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-list.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Daftar katalog
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_det.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Detail Opac
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+OPAC SLiMS saat ini telah mampu menampilkan fitur berbagai ke media sosial.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_xml.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+XML Opac
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Pada OPAC dengan template default juga disediakan tampilan 
+\begin_inset Quotes eld
+\end_inset
+
+promote
+\begin_inset Quotes erd
+\end_inset
+
+ koleksi.
+ Koleksi yang ditampilkan adalah koleksi bibliografi yang disetting dengan
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Show Promote
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-promote.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC dengan show promote
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Memanggil RSS (Realy Simple Syndication)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+RSS merupakan suatu fitur yang dapat menunjukkan informasi koleksi yang
+ ada di SLiMS dan ditempel pada aplikasi yang lain.
+ RSS SLiMS dapat diakses melalui url: http://host/folder-slims/index.php?rss=true
+ atau dengan klik logo RSS yang berada pada halaman OPAC.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-rss.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Realy Simple Syndication
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Fitur pencarian menggunakan suara
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Pencarian menggunakan suara pada SLiMS hanya dapat dilakukan jika browser
+ yang digunakan adalah Google Chrome.
+ Selain itu, server wajib terkoneksi ke internet serta terdapat microphone
+ pada komputer yang digunakan.
+ Jika syarat ini terpenuhi, maka pada kotak pencarian yang dibuka menggunakan
+ Chrome akan muncul gambar microphone.
+ Silakan klik gambar microphone tersebut dan ucapkan kata yang ingin anda
+ cari.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-voice.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pencarian menggunakan suara
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Fitur keyword suggestion menggunakan library Enchant 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini berguna, ketika kita salah menuliskan ejaan kata kunci pada kotak
+ pencarian di OPAC.
+ Jika ini terjadi, maka SLiMS akan menyuguhkan saran kata yang mungkin kita
+ maksudkan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Agar fitur ini aktif, maka server harus terinstall php-enchant dan terkoneksi
+ ke internet.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-enchant.jpg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Auto-correct pada SLiMS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Custom Field Record List
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Pada Aplikasi Senayan stable 8 ini, ditambahi dengan fasilitas penampilan
+ field record secara cuztomise.
+ Penambahan ini dapat dilakukan dengan mengedit file 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+custom_frontpage_record.inc.php
+\end_layout
+
+\end_inset
+
+ yang terdapat pada folder template OPAC.
+ Jadi jika anda ingin mengubah tampilan yang disediakan, dan anda menggunakan
+ template default, anda harus mengedit file 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+custom_frontpage_record.inc.php
+\end_layout
+
+\end_inset
+
+ yang ada di 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+template/default/
+\end_layout
+
+\end_inset
+
+.
+ Isi dari file ini adalah:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+// change "0" value to "1" to enable field
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+// $custom_fields['edition'] = array(1, lang_mod_biblio_field_edition);
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['edition'] = array(0, lang_mod_biblio_field_edition); -->
+ untuk menampilkan edisi
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['isbn_issn'] = array(0, lang_mod_biblio_field_isbn); -->
+ untuk menampilkan ISBN
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['collation'] = array(0, lang_mod_biblio_field_collation);
+ --> untuk menampilkan Colasi
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['series_title'] = array(0, lang_mod_biblio_field_series);
+ --> untuk menampilkan Seri
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['call_number'] = array(1, lang_mod_biblio_field_call_number);
+ --> untuk menampilkan call number
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Caranya adalah dengan mengubah angka 0 menjadi angka 1
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Tampilan Multimedia
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+File multimedia yang diupload pada modul Bibliografi akan ditampilkan pada
+ modul OPAC senayan, berikut adalah contoh tampilan file .flv
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/multimed1.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan multimedia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Tampilan PDF Streaming
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Mulai Stable13, Senayan telah mendukung tampilan dokumen lampiran dalam
+ bentuk streaming.
+ Untuk menampilkan dibutuhkan Flash Player pada browser yang digunakan.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_pdfstreaming.png
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan PDF Streaming
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Boolean Logic di OPAC 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Mulai Senayan3-stable10, sistem pencarian di OPAC sudah mendukung logika
+ boolean.
+ Pada proses pencarian dapat digunakan operator OR, NOT dan AND.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Misalnya: 
+\family typewriter
+title=web AND author=leon
+\family default
+, hasilnya adalah judul web dan pengarangnya leon.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/boolean.png
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Boolean Logic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Member Area
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Mulai Senayan3-Stable12, senayan mempunyai fitur Member Area.
+ Perubahan besar di Member Area terjadi di Stable 15/Matoa.
+ Pada fitur ini anggota dapat melakukan login dengan menggunakan ID anggota
+ dan password yang sebelumnya sudah ditentukan oleh pustakawan sewaktu input
+ data anggota.
+ Pada Stable12 ketika anggota login, anggota dapat melihat koleksi yang
+ dipinjam, serta melakukan penggantian password.
+ Namun pada Stable15/Matoa fasilitas ini diperluas dengan fasilitas mengunduh
+ daftar pinjaman, mengunduh daftar riwayat peminjaman, serta pemesanan via
+ Email.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberlogin.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan Menu Login Anggota
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-login-logout.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan identitas Anggota yang Log-in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberarea.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Informasi Anggota, Peminjaman dan Sejarah peminjaman + download daftarnya
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberarea1.png
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Informasi Sejarah peminjaman, keranjang judul dan ubah password
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Selain daftar riwayat peminjaman dan fasiltitas unduh, ada fitur Kerangjang
+ Judul.
+ Keranjang ini dapat diisi judul-judul yang menurut member menarik dan akan
+ di pesan.
+\end_layout
+
+\begin_layout Standard
+Cara pengisiannya adalah, dengan menuju ke halaman OPAC, muncul tampilan
+ berikut:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-keranjang-depan.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Mengisi keranjang Judul
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tampilan di atas, muncul jika anda melakukan login sebagai member.
+ Untuk mengisi silakan contreng kotak di tiap akhir judul, lalu klik 
+\begin_inset Quotes eld
+\end_inset
+
+Taruh Pilihan yang anda tandai ke keranjang
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Hasilnya adalah sebagai berikut.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-keranjang-isi.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Isi Keranjang Judul anda
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Untuk mengirim pesanan ke Pustakawan, silakan klik 
+\begin_inset Quotes eld
+\end_inset
+
+Reservasi ditambahkan ke dalam Keranjang
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Maka jika berhasil akan muncul tampilan sebagai berikut
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+untuk melakukan pengiriman pesanan via email, silakan lihat seting email
+ di Tips dan Trik pada bagian 
+\lang english
+Mensetting Email server.
+
+\lang bahasa
+ 
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-sent-pesanan.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Pesanan terkirim ke Email pustakawan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Pada email pustakawan akan muncul kiriman email sebagai berikut:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-reserv-email.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Pesanan terkirim ke Email pustakawan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Pencarian menggunakan suara
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS mendukung pencarian pada OPAC menggunakan suara.
+ Yang dilakukan adalah dengan menyebut kata kunci yang digunakan di depan
+ komputer OPAC yang telah dilengkapi dengan microphone.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini hanya dapat berjalan pada google chrome, karena menggunakan database
+ yang dibangun oleh google dan hanya dapat terintegrasi dengan google chrome.
+ 
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+SLiMS keyword suggestion
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Fitur ini memberikan saran pencarian jika ada kata/subyek yang salah dalam
+ pengetikan.
+ Fitur ini dapat berjalan jika komputer server terkoneksi internet dan telah
+ memasang library Enchant.
+\end_layout
+
+\begin_layout Section
+Pencarian menggunakan suara
+\end_layout
+
+\begin_layout Standard
+SLiMS telah mendukung pencarian koleksi dengan menggunakan suara.
+ Caranya adalah:
+\end_layout
+
+\begin_layout Enumerate
+Gunakan browser Google Chrome
+\end_layout
+
+\begin_layout Enumerate
+Aktifkan fitur pencarian di ujung kotak pencarian (gambar microphone)
+\end_layout
+
+\begin_layout Enumerate
+Jika terlihat sudah aktif, ucapkan kata-kata tertentu sesuai yang anda inginkan
+ pada microphone komputer anda
+\end_layout
+
+\begin_layout Section
+Fitur Komentar pada Bibliografi
+\end_layout
+
+\begin_layout Standard
+Fitur ini digunakan untuk memberikan komentar pada bibliografi.
+ Jika pemustaka akan memberikan komentar, maka yang bersangkutan harus melakukan
+ login terlebih dahulu.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-komentar.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Komentar pada bibliografi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Menampilkan Halaman Pustakawan
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Untuk menampilkan halaman pustakawan, cukup klik 
+\begin_inset Quotes eld
+\end_inset
+
+librarian
+\begin_inset Quotes erd
+\end_inset
+
+ pada template OPAC default Cendana.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-kliklibrarian.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+memanggil profil pustakawan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-libprof.png
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan profil pustakawan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

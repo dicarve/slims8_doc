@@ -1,0 +1,19 @@
+// label print settings
+/* measurement in cm */
+$sysconf['print']['label']['page_margin'] = 0.2;
+$sysconf['print']['label']['items_per_row'] = 3;
+$sysconf['print']['label']['items_margin'] = 0.05;
+$sysconf['print']['label']['box_width'] = 8;
+$sysconf['print']['label']['box_height'] = 3.3;
+$sysconf['print']['label']['include_header_text'] = 1; // change to 0 if dont want to use header in each label
+$sysconf['print']['label']['header_text'] = ''; // keep empty if you want to use Library Name as a header text
+$sysconf['print']['label']['fonts'] = "Arial, Verdana, Helvetica, 'Trebuchet MS'";
+$sysconf['print']['label']['font_size'] = 11;
+$sysconf['print']['label']['border_size'] = 1; // in pixels
+
+// barcode generator print settings
+$sysconf['print']['barcodegen']['box_width'] = 6;
+$sysconf['print']['barcodegen']['page_margin'] = 0.2;
+$sysconf['print']['barcodegen']['items_margin'] = 0.05;
+$sysconf['print']['barcodegen']['include_border'] = 0;
+$sysconf['print']['barcodegen']['items_per_row'] = 3;

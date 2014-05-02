@@ -1,0 +1,638 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\lang bahasa
+Dokumentasi SLiMS
+\begin_inset Newline newline
+\end_inset
+
+Berdasar SLiMS-8
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+ditulis dengan LyX 1.6.5 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(AKASIA) v.1.1
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+website resmi SLiMS: http://slims.web.id
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/cendana1.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman} 
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Menggunakan piranti lunak free open source/free software itu ibarat kita
+ mengutip pernyataan dari karya orang lain dalam bidang akademik, si penulis
+ asli ga minta apa-apa kok, minta duit juga engga, cuman minta nama dan
+ karya dia disebutin dengan baik dan benar, udah segitu doang engga susah
+ kan? (Arie Nugraha, Core Programmer SLiMS)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Update di SLiMS-7 (CENDANA):
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Template admin untuk Cendana 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: OPAC Responsive template
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Bahasa Persia 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Fitur komentar pada OPAC
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Tooltip pada field penambahan bibliografi 
+\series bold
+(Bibliografi)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Penghapusan foto anggota dan foto sampul buku 
+\series bold
+(Membership dan Bibliografi)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Format kartu anggota yang lebih menarik (credit to Jushadi Arman -SLiMS
+ Makassar-) 
+\series bold
+(Membership)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Setting kartu, label dan barcode menggunakan GUI 
+\series bold
+(Membership dan Bibliografi)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Fitur pencarian menggunakan suara (menggunakan Chrome) pada perangkat
+ 
+\emph on
+mobile 
+\series bold
+\emph default
+(OPAC)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: Realy Simple Syndication 
+\series bold
+(OPAC)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: pdfjs untuk membaca lampiran .pdf 
+\series bold
+(OPAC)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: SLiMS keyword suggestion menggunakan Enchant library 
+\series bold
+(OPAC)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Fixed: Bugs pada Custom Report (Reporting)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Fixed: LDAP auth error 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Fixed: Fitur perpanjangan 
+\series bold
+(Sirkulasi)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Add: capture image anggota dan cover menggunakan html-5 
+\series bold
+(Bibliografi, System dan Membership)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Modified: Type ahead value for Publisher, Publishing Place, Classification
+\series bold
+ (Bibliografi)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang bahasa
+Catatan Penting:
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang bahasa
+Sysconfig
+\end_layout
+
+\begin_layout Standard
+File 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+, merupakan file yang berfungsi sama konfigurasi sama dengan sysconfig.inc.php.
+ Namun demikian, untuk perubahan di lokal, disarankan mengubah file sysconfig.loc
+al.inc.php saja.
+ Logikanya, jika ada dua konfigurasi sama di kedua file tersebut, maka yang
+ akan dibaca oleh aplikasi SLiMS adalah sysconfig.local.inc.php.
+\end_layout
+
+\begin_layout Standard
+Misal:
+\end_layout
+
+\begin_layout Standard
+Pada 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+sysconfig.inc.php
+\end_layout
+
+\end_inset
+
+ ada baris 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+$sysconf['ucs']['enable'] = false;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pada 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+ ada baris 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+$sysconf['ucs']['enable'] = true;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Maka yang akan digunakan oleh Aplikasi SLiMS adalah konfigurasi yang bernilai
+ true.
+\end_layout
+
+\begin_layout Subsubsection*
+Shortcut
+\end_layout
+
+\begin_layout Standard
+Mulai SLiMS-5, SLiMS mempunyai fitur shortcut yang dapat digunakan untuk
+ berpindah menu tanpa menggunakan mouse.
+ Shortcut tersebut berlaku untuk MODUL dan SUBMODUL.
+ Modul menggunakan perpaduan Shift+Tombol Fungsi (F1-F8 dan Esc), sedangkan
+ Submodul menggunakan perpaduan Ctrl+Angka 1-8, pada bagian yang mempunyai
+ submodul banyak ada yang juga menggunakan perpaduan Ctrl+Alt+Angka.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/hotkey-ctrl.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Shortcut Modul 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/hotkey-shift.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Shortcut Submodul
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Selain itu, juga ada shortcut untuk menu di submodul sirkulasi.
+ Yaitu (L), (C), (R),(F),(H).
+ Cara mengaksesnya adalah dengan Alt+Shift+(L) dan seterusnya (jika anda
+ menggunakan Firefox).
+ Untuk browser lain, jika cara tersebut tidak berhasil dapat dengan menekan
+ Alt+(L) dan seterusnya (tanpa shift).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/cir-shortcut.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Shortcut Sirkulasi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang bahasa
+Browser
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Rekomendasi browser/perambah web untuk SLiMS adalah:
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Firefox 10 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Chrome 10 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+IE 9 ke atas
+\end_layout
+
+\begin_layout Enumerate
+
+\lang bahasa
+Opera 10 ke atas
+\end_layout
+
+\end_body
+\end_document
