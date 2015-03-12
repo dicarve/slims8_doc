@@ -50,7 +50,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle headings
 \tracking_changes false
 \output_changes false
 \html_math_output 0
@@ -155,11 +155,8 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-Menggunakan piranti lunak free open source/free software itu ibarat kita
- mengutip pernyataan dari karya orang lain dalam bidang akademik, si penulis
- asli ga minta apa-apa kok, minta duit juga engga, cuman minta nama dan
- karya dia disebutin dengan baik dan benar, udah segitu doang engga susah
- kan? (Arie Nugraha, Core Programmer SLiMS)
+Manfaat SLiMS apalagi yang kau dustakan?! (Arie Nugraha, Core Programmer
+ SLiMS)
 \end_layout
 
 \end_inset
@@ -206,282 +203,42 @@ Add: Modul help dalam laman administrator
 Catatan Penting:
 \end_layout
 
-\begin_layout Subsubsection*
-
-\lang bahasa
-Sysconfig
+\begin_layout Standard
+Pada rilis kali ini, SLiMS 8 Akasia, para pengembang berkomitmen untuk memberika
+n sesuatu yang baru.
+ Sesuatu yang segar.
+ Lain dari biasanya.
+ Selain templat dan bagian antar muka lain, keamanan data konfigurasi menjadi
+ bagian yang mendapat perhatian.
+ Catatan ini penting bagi pengguna sistem operasi GNU/Linux.
 \end_layout
 
 \begin_layout Standard
-File 
-\begin_inset Flex URL
-status open
+Bagi pengguna sistem operasi GNU/Linux, dalam proses instalasi pada rilis
+ sebelumnya, diharuskan membuat berkas sysconfig.local.inc.php secara manual
+ dan memberikan akses terbuka (# chmod 777) agar berkas tersebut dapat ditulis
+ oleh sistem berdasarkan data dari proses pemasangan via antarmuka web.
+ Setelah selesai proses pemasangan, sangat disarankan untuk mengubah hak
+ akses data sysconfig.local.inc.php ke nilai 755.
+\end_layout
 
-\begin_layout Plain Layout
-
+\begin_layout Standard
+Dalam SLiMS 8 Akasia, untuk alasan keamanan proses tersebut diubah dengan
+ menyimpan berkas konfigurasi ke dalam direktori 
+\series bold
+\bar under
+config
+\series default
+\bar default
+.
+ Apabila Anda menemukan permasalahan tentang tidak adanya berkas 
+\bar under
 sysconfig.local.inc.php
-\end_layout
-
-\end_inset
-
-, merupakan file yang berfungsi sama konfigurasi sama dengan sysconfig.inc.php.
- Namun demikian, untuk perubahan di lokal, disarankan mengubah file sysconfig.loc
-al.inc.php saja.
- Logikanya, jika ada dua konfigurasi sama di kedua file tersebut, maka yang
- akan dibaca oleh aplikasi SLiMS adalah sysconfig.local.inc.php.
-\end_layout
-
-\begin_layout Standard
-Misal:
-\end_layout
-
-\begin_layout Standard
-Pada 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-sysconfig.inc.php
-\end_layout
-
-\end_inset
-
- ada baris 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-$sysconf['ucs']['enable'] = false;
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Pada 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-sysconfig.local.inc.php
-\end_layout
-
-\end_inset
-
- ada baris 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-$sysconf['ucs']['enable'] = true;
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Maka yang akan digunakan oleh Aplikasi SLiMS adalah konfigurasi yang bernilai
- true.
-\end_layout
-
-\begin_layout Subsubsection*
-Shortcut
-\end_layout
-
-\begin_layout Standard
-Mulai SLiMS-5, SLiMS mempunyai fitur shortcut yang dapat digunakan untuk
- berpindah menu tanpa menggunakan mouse.
- Shortcut tersebut berlaku untuk MODUL dan SUBMODUL.
- Modul menggunakan perpaduan Shift+Tombol Fungsi (F1-F8 dan Esc), sedangkan
- Submodul menggunakan perpaduan Ctrl+Angka 1-8, pada bagian yang mempunyai
- submodul banyak ada yang juga menggunakan perpaduan Ctrl+Alt+Angka.
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang bahasa
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang bahasa
-\begin_inset Graphics
-	filename image/hotkey-ctrl.png
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang bahasa
-Shortcut Modul 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang bahasa
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-
-\lang bahasa
-\begin_inset Graphics
-	filename image/hotkey-shift.png
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang bahasa
-Shortcut Submodul
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-Selain itu, juga ada shortcut untuk menu di submodul sirkulasi.
- Yaitu (L), (C), (R),(F),(H).
- Cara mengaksesnya adalah dengan Alt+Shift+(L) dan seterusnya (jika anda
- menggunakan Firefox).
- Untuk browser lain, jika cara tersebut tidak berhasil dapat dengan menekan
- Alt+(L) dan seterusnya (tanpa shift).
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang bahasa
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-
-\lang bahasa
-\begin_inset Graphics
-	filename image/cir-shortcut.png
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\lang bahasa
-Shortcut Sirkulasi
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-
-\lang bahasa
-Browser
-\end_layout
-
-\begin_layout Standard
-
-\lang bahasa
-Rekomendasi browser/perambah web untuk SLiMS adalah:
-\end_layout
-
-\begin_layout Enumerate
-
-\lang bahasa
-Firefox 35 ke atas
-\end_layout
-
-\begin_layout Enumerate
-
-\lang bahasa
-Chrome 35 ke atas
-\end_layout
-
-\begin_layout Enumerate
-
-\lang bahasa
-IE Spartan ke atas
-\end_layout
-
-\begin_layout Enumerate
-
-\lang bahasa
-Opera 10 ke atas
+\bar default
+ pada saat proses instalasi setelah memasukkan informasi pangkalan data
+ beserta data akses lainnya, maka yang perlu Anda lakukan adalah mengubah
+ hak akses direktori config tersebut menjadi terbuka dengan nilai 777.
+ 
 \end_layout
 
 \end_body
