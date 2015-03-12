@@ -240,7 +240,7 @@ Mulai Senayan3-stable11, dimungkinkan untuk menentukan tanggalpinjam dan
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -313,6 +313,49 @@ status open
 \begin_inset Graphics
 	filename image/sirk-quick.png
 	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+QuickReturn 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sirk-quickreturn-indra.png
+	scale 40
 
 \end_inset
 
