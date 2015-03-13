@@ -90,13 +90,13 @@ Ketika anda masuk ke halaman admin SLiMS, pertama kali yang ada lihat adalah
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename image/home.png
-	scale 30
+	scale 45
 
 \end_inset
 
