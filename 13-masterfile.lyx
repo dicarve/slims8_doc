@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass scrbook
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -30,15 +30,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 0
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -106,6 +115,64 @@ Publisher* diisikan nama penerbit
 \begin_layout Itemize
 
 \lang bahasa
+Type Content: merupakan tipe yang mengindikasikan cara informasi dikomunikasikan.
+ Contoh tipe content dapat dilihat di 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.loc.gov/standards/valuelist/rdacontent.html
+\end_layout
+
+\end_inset
+
+ (The form of communication through which a work is expressed)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Type Media: merupakan jenis perangkat yang digunakan untuk membaca, melihat
+ atau memainkan isi sumber.
+ Contoh Tipe Media silakan baca di 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.loc.gov/standards/valuelist/rdamedia.html
+\end_layout
+
+\end_inset
+
+ (Media type reflects the general type of intermediation device required
+ to view, play, run, etc., the content of a resource.)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Type Carrier: Tipe fisik yang menyimpan informasi.
+ Contoh tipe carrier bisa dilihat di 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.loc.gov/standards/valuelist/rdacarrier.html
+\end_layout
+
+\end_inset
+
+ (Carrier type reflects the format of the storage medium and housing of
+ a carrier in combination with the media type (which indicates the intermediatio
+n device required to view, play, run, etc., the content of a resource)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
 Supplier merupakan data suplier yang menjadi rekanan perpustakaan dalam
  mendapatkan koleksi.
  
@@ -156,7 +223,7 @@ status collapsed
 \begin_layout Plain Layout
 
 \lang bahasa
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
@@ -272,7 +339,7 @@ status open
 \begin_layout Plain Layout
 
 \lang bahasa
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Plain Layout
 

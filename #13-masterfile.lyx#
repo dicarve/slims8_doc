@@ -122,19 +122,14 @@ Type Content: merupakan tipe yang mengindikasikan cara informasi dikomunikasikan
 \begin_layout Itemize
 
 \lang bahasa
-Type Media: merupakan jenis perangkat yang digunakan untuk membaca, melihat
- atau memainkan isi sumber.
- (Media type reflects the general type of intermediation device required
- to view, play, run, etc., the content of a resource.)
+Type Media: Media type reflects the general type of intermediation device
+ required to view, play, run, etc., the content of a resource.
 \end_layout
 
 \begin_layout Itemize
 
 \lang bahasa
-Type Carrier: Carrier type reflects the format of the storage medium and
- housing of a carrier in combination with the media type (which indicates
- the intermediation device required to view, play, run, etc., the content
- of a resource)
+Type Carrier
 \end_layout
 
 \begin_layout Itemize
